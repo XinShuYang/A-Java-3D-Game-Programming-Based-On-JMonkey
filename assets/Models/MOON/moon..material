@@ -1,0 +1,21 @@
+material OgreMaxMaterial1
+{
+	technique OgreMaxTechnique1
+	{
+		pass OgreMaxPass1
+		{
+			ambient 0.7 0.7 0.7 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.222217 0.222217 0.222217 1 20
+			emissive 0.486107 0.486107 0.486107 1
+
+			texture_unit OgreMaxTextureUnit1
+			{
+				texture MOON.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}

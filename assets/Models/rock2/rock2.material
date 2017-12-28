@@ -1,0 +1,20 @@
+material OgreMaxMaterial1
+{
+	technique OgreMaxTechnique1
+	{
+		pass OgreMaxPass1
+		{
+			diffuse 0.840284 0.840284 0.840284 1
+			specular 0.527779 0.527779 0.527779 1 20
+			emissive 0.32639 0.32639 0.32639 1
+
+			texture_unit OgreMaxTextureUnit1
+			{
+				texture rock_02_diffusion.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}

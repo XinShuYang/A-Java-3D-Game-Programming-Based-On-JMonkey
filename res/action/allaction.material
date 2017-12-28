@@ -1,0 +1,43 @@
+material Standard_7_OgreMax
+{
+	technique è´´å¾#3
+	{
+		pass è´´å¾#4
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit è´´å¾#5
+			{
+				texture Ast_body_diff.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+
+
+material Standard_8_OgreMax
+{
+	technique è´´å¾#11
+	{
+		pass è´´å¾#12
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit è´´å¾#13
+			{
+				texture Ast_head_diff.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}

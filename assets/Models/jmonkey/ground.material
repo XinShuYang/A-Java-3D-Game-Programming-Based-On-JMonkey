@@ -1,0 +1,21 @@
+material OgreMaxMaterial1
+{
+	technique OgreMaxTechnique1
+	{
+		pass OgreMaxPass1
+		{
+			ambient 0.930556 0.930556 0.930556 1
+			diffuse 0.805554 0.805554 0.805554 1
+			specular 0.347219 0.347219 0.347219 1 20
+			emissive 0.368063 0.368063 0.368063 1
+
+			texture_unit OgreMaxTextureUnit1
+			{
+				texture groud.jpg
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
